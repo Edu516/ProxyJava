@@ -1,0 +1,15 @@
+CREATE TABLE anotacoes (
+    id SERIAL PRIMARY KEY,
+    conteudo TEXT NOT NULL
+);
+
+INSERT INTO anotacoes (conteudo) VALUES ('Hambúrguer.');
+INSERT INTO anotacoes (conteudo) VALUES ('Pizza.');
+INSERT INTO anotacoes (conteudo) VALUES ('Cachorro-quente.');
+INSERT INTO anotacoes (conteudo) VALUES ('Sanduíche de frango.');
+INSERT INTO anotacoes (conteudo) VALUES ('Batata frita.');
+INSERT INTO anotacoes (conteudo) VALUES ('Tacos.');
+INSERT INTO anotacoes (conteudo) VALUES ('Nachos.');
+INSERT INTO anotacoes (conteudo) VALUES ('Burrito.');
+INSERT INTO anotacoes (conteudo) VALUES ('Wrap de vegetais.');
+INSERT INTO anotacoes (conteudo) VALUES ('Salada de frutas.');
